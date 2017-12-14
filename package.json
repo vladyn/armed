@@ -1,0 +1,35 @@
+{
+  "name": "armed",
+  "version": "1.0.0",
+  "description": "music streaming example ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "url": "git+https://github.com/vladyn/armed.git",
+    "type": "git"
+  },
+  "keywords": [
+    "html5",
+    "audio",
+    "web",
+    "audio"
+  ],
+  "author": "vladyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladyn/armed/issues"
+  },
+  "homepage": "https://github.com/vladyn/armed#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "browserify": "^14.5.0",
+    "node-sass": "^4.7.2"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "polyfill": "^0.1.0"
+  }
+}

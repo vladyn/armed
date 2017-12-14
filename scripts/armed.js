@@ -1,7 +1,7 @@
-const armed = (function(){
-    console.log("wow");
-    let some = 1;
-    console.log(some);
-})();
+const armed = (function () {
+    let track1 = document.getElementById("track-1");
+    console.log("track 1 is " + track1.toLocaleString());
+
+}());
 
 export default armed;
