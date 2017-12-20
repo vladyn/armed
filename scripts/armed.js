@@ -1,6 +1,13 @@
 const armed = (function () {
-    let track1 = document.getElementById("track-1");
-    console.log("track 1 is " + track1);
+    const tracks = document.getElementsByTagName('audio');
+    const track1 = document.getElementById('track-1');
+    const track2 = document.getElementById('track-2');
+    track2.play();
+    let playing;
+    for (let element of tracks) {
+        (!element.paused) ? playing = element : null;
+    }
+    return playing;
 }());
 
 export default armed;
