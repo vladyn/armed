@@ -29,7 +29,9 @@
     "node-sass": "^4.7.2"
   },
   "dependencies": {
+    "amplitudejs": "^3.2.3",
     "babel": "^6.23.0",
-    "polyfill": "^0.1.0"
+    "polyfill": "^0.1.0",
+    "sweetalert2": "^7.3.0"
   }
 }
