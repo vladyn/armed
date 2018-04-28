@@ -3,9 +3,9 @@ const armed = (function () {
     const track1 = document.getElementById('track-1');
     const track2 = document.getElementById('track-2');
     track2.play();
-    let playing;
+    let playing = [];
     for (let element of tracks) {
-        (!element.paused) ? playing = element : null;
+        (!element.paused) ? playing.push(element) : null;
     }
     return playing;
 }());
